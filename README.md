@@ -39,21 +39,38 @@ Example of attacks from [Attacking Optical Flow](https://openaccess.thecvf.com/c
 
 ## Results
 
-#### FlowNet2 model:
+#### GMA model:
 
-TODO
+Unattacked Frames                                                    | Attacked Frames                                                        | Unattacked Flow                                                    | Attacked Flow
+:-------------------------:                                          | :-------------------------:                                            | :-------------------------:                                        | :-------------------------:|
+<img src="images/gma_frames_origin.gif" alt="drawing" width="300"/> | <img src="images/gma_frames_attacked.gif" alt="drawing" width="300"/> | <img src="images/gma_flow_origin.gif" alt="drawing" width="300"/> | <img src="images/gma_flow_attacked.gif" alt="drawing" width="300"/>
 
-#### RAFT model:
+<details>
+<summary>RAFT model</summary>
 
 Unattacked Frames                                                    | Attacked Frames                                                        | Unattacked Flow                                                    | Attacked Flow
 :-------------------------:                                          | :-------------------------:                                            | :-------------------------:                                        | :-------------------------:|
 <img src="images/raft_frames_origin.gif" alt="drawing" width="300"/> | <img src="images/raft_frames_attacked.gif" alt="drawing" width="300"/> | <img src="images/raft_flow_origin.gif" alt="drawing" width="300"/> | <img src="images/raft_flow_attacked.gif" alt="drawing" width="300"/>
 
-#### GMA model:
+</details>
+
+<details>
+<summary>FlowNet2 model</summary>
+
 Unattacked Frames                                                    | Attacked Frames                                                        | Unattacked Flow                                                    | Attacked Flow
 :-------------------------:                                          | :-------------------------:                                            | :-------------------------:                                        | :-------------------------:|
-<img src="images/gma_frames_origin.gif" alt="drawing" width="300"/> | <img src="images/gma_frames_attacked.gif" alt="drawing" width="300"/> | <img src="images/gma_flow_origin.gif" alt="drawing" width="300"/> | <img src="images/gma_flow_attacked.gif" alt="drawing" width="300"/>
+<img src="images/fn2_frames_origin.gif" alt="drawing" width="300"/> | <img src="images/fn2_frames_attacked.gif" alt="drawing" width="300"/> | <img src="images/fn2_flow_origin.gif" alt="drawing" width="300"/> | <img src="images/fn2_flow_attacked.gif" alt="drawing" width="300"/>
+
+#### Metric: Mean Squared Error (MSE)
+
+| Model    |      MSE      |  Noise Type |
+|----------|:-------------:|------------:|
+| FlowNet2 |    56.9827    |  Patch      |
+| GMA      |    2.5502     |  Patch      |
+
+
+</details>
 
 ## Conclusions
-
-TODO
+ 
+For more effective patch attacks, more complex approaches are needed. Gaussian noise and even patches optimized for testing networks will not add a significant amount of noise.
