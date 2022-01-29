@@ -1,0 +1,9 @@
+[submodule "sources/flownet2-pytorch"]
+	path = sources/flownet2-pytorch
+	url = https://github.com/NVIDIA/flownet2-pytorch
+[submodule "sources/GMA"]
+	path = sources/GMA
+	url = https://github.com/zacjiang/GMA
+[submodule "sources/RAFT"]
+	path = sources/RAFT
+	url = https://github.com/princeton-vl/RAFT
