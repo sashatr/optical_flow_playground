@@ -1,4 +1,4 @@
-# Optical Flow Playground (educational project)
+# Optical Flow Overview (*`educational project*)
 
 ## Description
 
@@ -39,8 +39,20 @@ Example of attacks from [Attacking Optical Flow](https://openaccess.thecvf.com/c
 
 ## Results
 
+#### FlowNet2 model:
+
 TODO
 
+#### RAFT model:
+
+Unattacked Frames                                                    | Attacked Frames                                                        | Unattacked Flow                                                    | Attacked Flow
+:-------------------------:                                          | :-------------------------:                                            | :-------------------------:                                        | :-------------------------:|
+<img src="images/raft_frames_origin.gif" alt="drawing" width="300"/> | <img src="images/raft_frames_attacked.gif" alt="drawing" width="300"/> | <img src="images/raft_flow_origin.gif" alt="drawing" width="300"/> | <img src="images/raft_flow_attacked.gif" alt="drawing" width="300"/>
+
+#### GMA model:
+Unattacked Frames                                                    | Attacked Frames                                                        | Unattacked Flow                                                    | Attacked Flow
+:-------------------------:                                          | :-------------------------:                                            | :-------------------------:                                        | :-------------------------:|
+<img src="images/gma_frames_origin.gif" alt="drawing" width="300"/> | <img src="images/gma_frames_attacked.gif" alt="drawing" width="300"/> | <img src="images/gma_flow_origin.gif" alt="drawing" width="300"/> | <img src="images/gma_flow_attacked.gif" alt="drawing" width="300"/>
 
 ## Conclusions
 
