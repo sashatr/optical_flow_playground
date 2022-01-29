@@ -6,7 +6,6 @@ import torch
 import torch.nn.functional as F
 
 
-
 def images_dir_to_tensor(path):
     # TODO: remove patch value from loss
     flow_names = os.listdir(path)

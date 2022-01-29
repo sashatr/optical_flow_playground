@@ -1,4 +1,4 @@
-# Optical Flow Overview (*`educational project*)
+# Optical Flow Overview (*educational project*)
 
 ## Description
 
@@ -61,15 +61,14 @@ Unattacked Frames                                                    | Attacked 
 :-------------------------:                                          | :-------------------------:                                            | :-------------------------:                                        | :-------------------------:|
 <img src="images/fn2_frames_origin.gif" alt="drawing" width="300"/> | <img src="images/fn2_frames_attacked.gif" alt="drawing" width="300"/> | <img src="images/fn2_flow_origin.gif" alt="drawing" width="300"/> | <img src="images/fn2_flow_attacked.gif" alt="drawing" width="300"/>
 
+</details>
+
 #### Metric: Mean Squared Error (MSE)
 
 | Model    |      MSE      |  Noise Type |
 |----------|:-------------:|------------:|
 | FlowNet2 |    56.9827    |  Patch      |
 | GMA      |    2.5502     |  Patch      |
-
-
-</details>
 
 ## Conclusions
  
