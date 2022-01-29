@@ -5,7 +5,7 @@
 The main goal of this repo is to learn the Optical Flow task. It includes: 
 - task overview
 - research of existing approaches
-- esults of reprodusing
+- results of reprodusing
 - practice in Attacking Optical Flow
 
 
